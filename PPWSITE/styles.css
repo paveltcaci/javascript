@@ -1,0 +1,92 @@
+.fondal1 *{
+    color: white;
+}
+.fondal2 *{
+    color: white;
+}
+.fondal1{
+    background: url("img/fon.jpg") no-repeat center center;
+    height: 800px;
+}
+.fondal1 h1{
+    position: relative;
+    left: 23%;
+    padding-top: 13px;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+}
+.fondal1 ul {
+    position: absolute;
+    left: 65%;
+    top: 46%;
+    font-size: 25px;
+    text-shadow: black 1px 1px 1px;
+}
+.fondal1 li{
+    margin-bottom: 20px;
+}
+
+
+.fondal2{
+    background: url("img/lina1.png") no-repeat center center;
+    height:800px ;
+}
+
+.fondal2 h1{
+    position: relative;
+    left: 4rem;
+    top: 4rem;
+    color: white;
+}
+#container{
+    position: relative;
+    top: 8rem;
+    left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.templates{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.templates img{
+    position: relative;
+    top: 20%;
+}
+.imghero{
+    width: 800px;
+    height: 450px;
+    opacity: 50%;
+    padding-top: 10%;
+    padding-left: 15%;
+}
+
+.fondal3{
+    text-align: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.card-img{
+    width: 300px;
+    height: 200px;
+    align-self: center;
+}
